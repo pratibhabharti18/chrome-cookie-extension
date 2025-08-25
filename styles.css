@@ -1,0 +1,28 @@
+#cookie-overlay {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  z-index: 999999;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+#cookie-overlay h4 {
+  margin-top: 10px;
+}
+#cookie-btn {
+  background: #0078d7;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#cookie-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}

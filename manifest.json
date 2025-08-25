@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Info Overlay",
+  "version": "1.0",
+  "description": "Manage and view cookies with permissions and overlay UI.",
+  "permissions": [
+    "scripting",
+    "tabs",
+    "activeTab",
+    "cookies",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/cookie_icon16.png",
+      "48": "icons/cookie_icon48.png",
+      "128": "icons/cookie_icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/cookie_icon16.png",
+    "48": "icons/cookie_icon48.png",
+    "128": "icons/cookie_icon128.png"
+  }
+}
